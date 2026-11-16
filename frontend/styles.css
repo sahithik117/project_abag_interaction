@@ -2546,3 +2546,16 @@ body[data-experience="specialist"] .field-guide-mode {
     font-size: 0.56rem;
   }
 }
+
+
+/* Experience-specific visibility: advanced scientific details are Specialist-only. */
+body[data-experience="beginner"] .specialist-only-section,
+body[data-experience="beginner"] .specialist-only-nav {
+  display: none !important;
+}
+
+/* The representation fingerprint is deliberately separate from the matrix so it
+   remains available in both Beginner and Specialist modes. */
+.representation-hash-card {
+  padding: 0;
+}

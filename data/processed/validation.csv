@@ -1,6 +1,3 @@
-sample_id,pdb_id,structure_path,antibody_heavy_chain,antibody_light_chain,antigen_chains,sabdab_id,ab_cluster,ag_cluster,ab_ag_cluster,label,representation_path,representation_shape,intermolecular_contact_count,antibody_interface_count,cdr_interface_count,antigen_interface_count,antibody_intramolecular_contact_count,antigen_intramolecular_contact_count,representation_nonzero_count,representation_sha256,processing_status,split
-pdb_00001ce1_H_L,1CE1,data\structures\1CE1.cif,H,L,P,H000WL000V,21,E228,19,1,data\processed\representations\pdb_00001ce1_H_L.npy,"(20, 21)",138,13,12,7,16,7,22,0bf83075f61c7fa2fc55490ae8d726b17abcd0b9bbf3cb86f5707a2487b32dfb,ACCEPTED,validation
-pdb_00001e4w_H_L,1E4W,data\structures\1E4W.cif,H,L,P,H000PL000N,16,/E208,14,1,data\processed\representations\pdb_00001e4w_H_L.npy,"(20, 21)",186,15,9,6,8,8,15,60643cb30309aa18d4665deccc96a10ab5f4f4b9d1c4b9d641b6dfb6e782f0b7,ACCEPTED,validation
-pdb_00001e4x_H_L,1E4X,data\structures\1E4X.cif,H,L,P,H000PL000N,16,E246,14,1,data\processed\representations\pdb_00001e4x_H_L.npy,"(20, 21)",194,16,9,7,7,8,15,46b0e42b5d3ed91509c01d12dd7c7c1c922e60415d5a89ca62c98928f2526aef,ACCEPTED,validation
-pdb_00001e4x_I_M,1E4X,data\structures\1E4X.cif,I,M,Q,H006KL000N,16,E246,14,1,data\processed\representations\pdb_00001e4x_I_M.npy,"(20, 21)",184,16,9,7,8,8,16,5f849b311326d256296a09d8291aaab304d4ee97490d9c135f1f34e6443aa847,ACCEPTED,validation
-pdb_00001kc5_H_L,1KC5,data\structures\1KC5.cif,H,L,P,H000DL000C,7,E20,6,1,data\processed\representations\pdb_00001kc5_H_L.npy,"(20, 21)",120,12,10,6,6,5,10,f1f3d2218b685463ab1c29b92cb4b4d9732382a2546025dd791f7b3714d955d9,ACCEPTED,validation
+version https://git-lfs.github.com/spec/v1
+oid sha256:65c47b4d7529f3429bcea1414a241c0de103da932c09d24563f3f2e3132de345
+size 1646

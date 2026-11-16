@@ -1,9 +1,3 @@
-sample_id,pdb_id,structure_path,antibody_heavy_chain,antibody_light_chain,antigen_chains,sabdab_id,ab_cluster,ag_cluster,ab_ag_cluster,label,representation_path,representation_shape,intermolecular_contact_count,antibody_interface_count,cdr_interface_count,antigen_interface_count,antibody_intramolecular_contact_count,antigen_intramolecular_contact_count,representation_nonzero_count,representation_sha256,processing_status,split
-pdb_00001acy_H_L,1ACY,data\structures\1ACY.cif,H,L,P,H000NL000M,15,E37,13,1,data\processed\representations\pdb_00001acy_H_L.npy,"(20, 21)",163,18,17,5,20,1,20,f4393d967d447356c4a20bafba7d748f1b6877bee55d86a280cd274836e1748f,ACCEPTED,test
-pdb_00001bog_B_A,1BOG,data\structures\1BOG.cif,B,A,C,H000QL000P,17,E43,15,1,data\processed\representations\pdb_00001bog_B_A.npy,"(20, 21)",210,17,14,10,14,8,20,a3d264e6ac137cde58cff3fb0248700c14eee9391522190406cb67b785634f01,ACCEPTED,test
-pdb_00001cfs_B_A,1CFS,data\structures\1CFS.cif,B,A,C,H000QL000P,17,E107,15,1,data\processed\representations\pdb_00001cfs_B_A.npy,"(20, 21)",143,14,8,6,6,2,8,d105dbca774f1c4b04c90019a69d12e5cc57e13b0ae7cffc0741ffe805a96b46,ACCEPTED,test
-pdb_00001cft_B_A,1CFT,data\structures\1CFT.cif,B,A,C,H000QL000P,17,E152,15,1,data\processed\representations\pdb_00001cft_B_A.npy,"(20, 21)",92,12,11,4,11,2,12,ef6351600171fe2b71f3dfac68880c0756b54052292d8de3786dfa287f7160b6,ACCEPTED,test
-pdb_00001hh6_B_A,1HH6,data\structures\1HH6.cif,B,A,C,H000QL000P,17,E43,15,1,data\processed\representations\pdb_00001hh6_B_A.npy,"(20, 21)",170,17,11,10,9,9,16,aea0511687f1c38ba1200bd7c640c0aa82d9add056afcedcfa3caeb66325dddf,ACCEPTED,test
-pdb_00001hh9_B_A,1HH9,data\structures\1HH9.cif,B,A,C,H000QL000P,17,E43,15,1,data\processed\representations\pdb_00001hh9_B_A.npy,"(20, 21)",168,19,14,10,15,8,19,1dc122d3143129efd56d3d19480b1a075cc682e9ed5dc800c444b9ba7bf704b3,ACCEPTED,test
-pdb_00001hi6_B_A,1HI6,data\structures\1HI6.cif,B,A,C,H000QL000P,17,E43,15,1,data\processed\representations\pdb_00001hi6_B_A.npy,"(20, 21)",273,20,12,9,11,5,13,1387d1d7ee342e9ba9f4e9aab53213fbdb7876fc2ccb1c79137886446fb63a84,ACCEPTED,test
-pdb_00002igf_H_L,2IGF,data\structures\2IGF.cif,H,L,P,H000YL000X,23,/E89,20,1,data\processed\representations\pdb_00002igf_H_L.npy,"(20, 21)",170,17,15,7,16,5,17,4fb6afc8becd9d9faffb73513a510a36a68f22d774c985f2fd6d8d4a20f4b775,ACCEPTED,test
+version https://git-lfs.github.com/spec/v1
+oid sha256:51495e88162113b603d01ab8779ee23860cf4154e193b752f918f22820d9f863
+size 2335

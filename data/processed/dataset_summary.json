@@ -906,6 +906,6 @@
   "split_limitation": null,
   "feature_definition": "Cross-partner heavy-atom contacts define interface residues; side-chain heavy-atom contacts among interface residues are counted within each partner. Partner B occupies upper triangle; partner A occupies lower triangle; diagonal is zero; each triangle is normalized independently.",
   "normalization_note": "Same-amino-acid contact pairs are tracked but omitted because the requested diagonal is zero; each triangle denominator includes only represented off-diagonal pairs.",
-  "manifest_path": "C:\\Users\\yadavalli charishma\\Documents\\Codex\\2026-11-01\\1-read-the-entire-specification-x20\\outputs\\Antibody_Antigen\\data\\processed\\manifest.csv",
-  "matrices_path": "C:\\Users\\yadavalli charishma\\Documents\\Codex\\2026-11-01\\1-read-the-entire-specification-x20\\outputs\\Antibody_Antigen\\data\\processed\\dataset_matrices.npz"
+  "manifest_path": "D:\\GitHubProjects\\New_Project_Final - Copy\\data\\processed\\manifest.csv",
+  "matrices_path": "D:\\GitHubProjects\\New_Project_Final - Copy\\data\\processed\\dataset_matrices.npz"
 }

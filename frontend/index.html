@@ -67,7 +67,7 @@
       </div>
 
       <div class="experience-dialog-footer">
-        <span>Both modes use the same analysis, 3D structure viewer, and interaction matrix; only the explanations change.</span>
+        <span>Both modes use the same analysis and 3D structure viewer. Specialist mode also includes the interaction matrix and detailed research diagnostics.</span>
         <button id="experience-continue" type="button">Continue with current view <span aria-hidden="true">→</span></button>
       </div>
     </div>
@@ -432,10 +432,10 @@
           <a href="#section-overview" class="dash-nav-pill active">Overview</a>
           <a href="#section-structure" class="dash-nav-pill" data-beginner="Protein Parts" data-specialist="Structure &amp; CDRs">Structure &amp; CDRs</a>
           <a href="#section-molecule" class="dash-nav-pill">3D Molecule Viewer</a>
-          <a href="#section-matrix" class="dash-nav-pill" data-beginner="Interaction Map" data-specialist="Interaction Matrix">Interaction Matrix</a>
-          <a href="#section-pipeline" class="dash-nav-pill">Pipeline Timeline</a>
-          <a href="#section-model" class="dash-nav-pill">CNN Architecture</a>
-          <a href="#section-limitations" class="dash-nav-pill">Limitations</a>
+          <a href="#section-matrix" class="dash-nav-pill specialist-only-nav">Interaction Matrix</a>
+          <a href="#section-pipeline" class="dash-nav-pill specialist-only-nav">Pipeline Timeline</a>
+          <a href="#section-model" class="dash-nav-pill specialist-only-nav">CNN Architecture</a>
+          <a href="#section-limitations" class="dash-nav-pill specialist-only-nav">Limitations</a>
         </nav>
 
         <!-- 1. PRIMARY RESULT & MODEL CLASSIFICATION CARD -->
@@ -682,7 +682,7 @@
         </section>
 
         <!-- 3. INTERACTION MATRIX — MAJOR SCIENTIFIC VISUAL -->
-        <section id="section-matrix" class="result-card interaction-matrix-card">
+        <section id="section-matrix" class="result-card interaction-matrix-card specialist-only-section">
           <div class="card-title-bar">
             <div>
               <div class="title-with-icon">
@@ -735,6 +735,10 @@
             </div>
           </div>
 
+        </section>
+
+        <!-- Representation integrity fingerprint (visible in both modes) -->
+        <section id="section-representation-hash" class="result-card representation-hash-card">
           <!-- SHA256 Fingerprint Row -->
           <div class="representation-integrity-row">
             <div class="integrity-label-group">
@@ -755,7 +759,7 @@
         </section>
 
         <!-- 4. PIPELINE EXECUTION SUMMARY TIMELINE -->
-        <section id="section-pipeline" class="result-card pipeline-summary-card">
+        <section id="section-pipeline" class="result-card pipeline-summary-card specialist-only-section">
           <div class="card-title-bar">
             <div class="title-with-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -828,7 +832,7 @@
         </section>
 
         <!-- 5. MODEL ARCHITECTURE & SCIENTIFIC SPECIFICATIONS -->
-        <section id="section-model" class="result-card model-specs-card">
+        <section id="section-model" class="result-card model-specs-card specialist-only-section">
           <div class="card-title-bar">
             <div class="title-with-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -877,7 +881,7 @@
         </section>
 
         <!-- 6. INTERPRETATION & SCIENTIFIC LIMITATIONS -->
-        <section id="section-limitations" class="result-card limitations-card">
+        <section id="section-limitations" class="result-card limitations-card specialist-only-section">
           <div class="card-title-bar">
             <div class="title-with-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
